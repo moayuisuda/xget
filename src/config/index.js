@@ -147,7 +147,7 @@ export function createConfig(env = {}) {
 
   return {
     TIMEOUT_SECONDS: parseInt(String(env.TIMEOUT_SECONDS), 10) || 30,
-    MAX_RETRIES: parseInt(String(env.MAX_RETRIES), 10) || 3,
+    MAX_RETRIES: parseInt(String(env.MAX_RETRIES), 10) || 4,
     RETRY_DELAY_MS: parseInt(String(env.RETRY_DELAY_MS), 10) || 1000,
     CACHE_DURATION: parseInt(String(env.CACHE_DURATION), 10) || 1800, // 30 minutes
     SECURITY: {
